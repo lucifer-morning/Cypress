@@ -1,0 +1,132 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-06-30T05:51:06.538Z",
+    "end": "2021-06-30T05:58:45.293Z",
+    "duration": 246828,
+    "testsRegistered": 2,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9725ceff-8928-493f-a7ff-b4184f7a6e3c",
+      "title": "",
+      "fullFile": "cypress\\integration\\actions.spec.js",
+      "file": "cypress\\integration\\actions.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "url entring",
+          "fullTitle": " url entring",
+          "timedOut": null,
+          "duration": 125518,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": null,
+          "code": "cy.visit('http://automationpractice.com/index.php');\ncy.get('.login').click();\ncy.get('#email').type('12jayant12@gmail.com');\ncy.get('#passwd').type('Delt@123');\ncy.get('.icon-lock').click();\ncy.get('.logo').click();\ncy.get('#homefeatured > .first-in-line.first-item-of-tablet-line > .product-container > .right-block > .button-container > .ajax_add_to_cart_button > span').click();\ncy.get('.button-medium > span').click();\ncy.get('.cart_navigation > .button > span').click();\ncy.get('.cart_navigation > .button > span').click();\ncy.get('#cgv').click();\ncy.get('.cart_navigation > .button > span').click();\ncy.get('.bankwire').click();\ncy.get('#cart_navigation > .button > span').should('have.text', 'I confirm my order').click();\ncy.get('.cheque-indent > .dark').should('have.text', 'Your order on My Store is complete2.');",
+          "err": {
+            "message": "CypressError: Timed out retrying: expected '<strong.dark>' to have text 'Your order on My Store is complete2.', but the text was 'Your order on My Store is complete.'",
+            "estack": "CypressError: Timed out retrying: expected '<strong.dark>' to have text 'Your order on My Store is complete2.', but the text was 'Your order on My Store is complete.'\n    at Object.cypressErr (http://automationpractice.com/__cypress/runner/cypress_runner.js:86207:11)\n    at Object.throwErr (http://automationpractice.com/__cypress/runner/cypress_runner.js:86162:18)\n    at Object.throwErrByPath (http://automationpractice.com/__cypress/runner/cypress_runner.js:86194:17)\n    at retry (http://automationpractice.com/__cypress/runner/cypress_runner.js:76849:16)\n    at onFailFn (http://automationpractice.com/__cypress/runner/cypress_runner.js:65634:16)\n    at tryCatcher (http://automationpractice.com/__cypress/runner/cypress_runner.js:120203:23)\n    at Promise._settlePromiseFromHandler (http://automationpractice.com/__cypress/runner/cypress_runner.js:118139:31)\n    at Promise._settlePromise (http://automationpractice.com/__cypress/runner/cypress_runner.js:118196:18)\n    at Promise._settlePromise0 (http://automationpractice.com/__cypress/runner/cypress_runner.js:118241:10)\n    at Promise._settlePromises (http://automationpractice.com/__cypress/runner/cypress_runner.js:118316:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://automationpractice.com/__cypress/runner/cypress_runner.js:114928:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://automationpractice.com/__cypress/runner/cypress_runner.js:114938:10)\n    at Async.drainQueues (http://automationpractice.com/__cypress/runner/cypress_runner.js:114812:14)",
+            "diff": null
+          },
+          "uuid": "7c2b6178-768e-42a0-a1c9-3ef566283258",
+          "parentUUID": "9725ceff-8928-493f-a7ff-b4184f7a6e3c",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "7c2b6178-768e-42a0-a1c9-3ef566283258"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 125518,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "9d80e375-138a-4e8a-84d7-f64ef69991a2",
+      "title": "",
+      "fullFile": "cypress\\integration\\actions.spec.js",
+      "file": "cypress\\integration\\actions.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "url entring",
+          "fullTitle": " url entring",
+          "timedOut": null,
+          "duration": 121310,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": null,
+          "code": "cy.visit('http://automationpractice.com/index.php');\ncy.get('.login').click();\ncy.get('#email').type('12jayant12@gmail.com');\ncy.get('#passwd').type('Delt@123');\ncy.get('.icon-lock').click();\ncy.get('.logo').click();\ncy.get('#homefeatured > .first-in-line.first-item-of-tablet-line > .product-container > .right-block > .button-container > .ajax_add_to_cart_button > span').click();\ncy.get('.button-medium > span').click();\ncy.get('.cart_navigation > .button > span').click();\ncy.get('.cart_navigation > .button > span').click();\ncy.get('#cgv').click();\ncy.get('.cart_navigation > .button > span').click();\ncy.get('.bankwire').click();\ncy.get('#cart_navigation > .button > span').should('have.text', 'I confirm my order').click();\ncy.get('.cheque-indent > .dark').should('have.text', 'Your order on My Store is complete2.');",
+          "err": {
+            "message": "CypressError: Timed out retrying: expected '<strong.dark>' to have text 'Your order on My Store is complete2.', but the text was 'Your order on My Store is complete.'",
+            "estack": "CypressError: Timed out retrying: expected '<strong.dark>' to have text 'Your order on My Store is complete2.', but the text was 'Your order on My Store is complete.'\n    at Object.cypressErr (http://automationpractice.com/__cypress/runner/cypress_runner.js:86207:11)\n    at Object.throwErr (http://automationpractice.com/__cypress/runner/cypress_runner.js:86162:18)\n    at Object.throwErrByPath (http://automationpractice.com/__cypress/runner/cypress_runner.js:86194:17)\n    at retry (http://automationpractice.com/__cypress/runner/cypress_runner.js:76849:16)\n    at onFailFn (http://automationpractice.com/__cypress/runner/cypress_runner.js:65634:16)\n    at tryCatcher (http://automationpractice.com/__cypress/runner/cypress_runner.js:120203:23)\n    at Promise._settlePromiseFromHandler (http://automationpractice.com/__cypress/runner/cypress_runner.js:118139:31)\n    at Promise._settlePromise (http://automationpractice.com/__cypress/runner/cypress_runner.js:118196:18)\n    at Promise._settlePromise0 (http://automationpractice.com/__cypress/runner/cypress_runner.js:118241:10)\n    at Promise._settlePromises (http://automationpractice.com/__cypress/runner/cypress_runner.js:118316:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://automationpractice.com/__cypress/runner/cypress_runner.js:114928:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://automationpractice.com/__cypress/runner/cypress_runner.js:114938:10)\n    at Async.drainQueues (http://automationpractice.com/__cypress/runner/cypress_runner.js:114812:14)",
+            "diff": null
+          },
+          "uuid": "06951cda-8042-4e26-8f1a-5672b5017347",
+          "parentUUID": "9d80e375-138a-4e8a-84d7-f64ef69991a2",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "06951cda-8042-4e26-8f1a-5672b5017347"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 121310,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
